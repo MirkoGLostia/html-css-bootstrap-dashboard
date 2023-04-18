@@ -1,5 +1,4 @@
-/* general */
-
+/* main */
 
 
 
@@ -24,7 +23,11 @@
 
 /* debug */
 
-
+.rectangular-place-holder {
+    background-color: brown;
+    height: 50px;
+    width: 100px;
+}
 
 .bk-r {
     background-color: #ff0000;

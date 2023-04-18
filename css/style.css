@@ -54,7 +54,19 @@
 
 
 
+    /* main navigator */
 
+    #main-navigation {
+        background-color: #051e34;
+        display: flex;
+        flex-direction: column;
+    }
 
+    #general-main-search {
+        flex-grow: 1;
+    }
 
+    #main-navigation > div > div {
+        margin: 20px auto;
+    }
 
