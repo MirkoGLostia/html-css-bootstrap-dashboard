@@ -15,7 +15,6 @@
 
 
 
-
 /********
 *HEADER*
 ********/
@@ -48,7 +47,7 @@
     width: 100%;
 }
 
-#main-content > #main-navigation {
+#main-content > .main-nav-sm-view {
     width: 100px;
 }
 
@@ -56,17 +55,31 @@
 
     /* main navigator */
 
+    .main-nav-lg-view {
+        display: none;
+    }
+
     #main-navigation {
         background-color: #051e34;
+        height: 100%;
         display: flex;
         flex-direction: column;
     }
 
     #general-main-search {
         flex-grow: 1;
+        padding-top: 20px;
     }
 
     #main-navigation > div > div {
         margin: 20px auto;
+        width: 100%;
+        text-align: center;
     }
-
+    
+    #main-navigation > div > div > a {
+        color: white;
+        font-size: 20px;
+        word-spacing: 10px;
+        text-decoration: none;
+    }
