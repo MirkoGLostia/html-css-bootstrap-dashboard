@@ -113,6 +113,7 @@
         #main-content-container {
             background-color: #f8f9fa;
             display: block;
+            min-height: calc(100vh - 150px);
         }
         
         #container-left {
