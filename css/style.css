@@ -123,17 +123,19 @@
             width: 100%;
         }
 
+        .main-info-container {
+            margin: 20px;
+            border-collapse: collapse;
+        }
+        
+        .main-info-container > h2, .main-info-container > div {
+            border: solid green 2px;
+            margin: 0;
+        }
 
+        .main-info-container > div {
+            padding: 10px;
+        }
+        
 
-            /* class */
-
-            #class-info {
-                margin: 20px;
-                border-collapse: collapse;
-            }
-            
-            #class-info > h2, #class-info > div {
-                border: solid green 2px;
-            }
-            
         
