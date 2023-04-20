@@ -133,9 +133,13 @@
             border: solid green 2px;
             margin: 0;
         }
-
+        
         .main-info-container > div {
             padding: 10px;
+        }
+        
+        .main-info-container img {
+            width: 100%;
         }
         
 
