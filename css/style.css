@@ -105,3 +105,20 @@
             background-color: #1b72e8;
             height: 100px;
         }
+
+
+
+        /* body */
+
+        #main-content-container {
+            display: block;
+        }
+        
+        #container-left {
+            width: 100%;
+        }
+        
+        #container-right {
+            width: 100%;
+        }
+        

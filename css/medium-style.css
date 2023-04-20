@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
     
 
-    /* main navigatio */
+    /* main navigation */
 
     #main-content > .main-nav-lg-view {
         width: 200px;
@@ -15,6 +15,20 @@
         display: inline-block;
     }
 
+    /* main body */
+
+    #main-content-container {
+        display: flex;
+    }
+    
+    #container-left {
+        width: 60%;
+    }
+    
+    #container-right {
+        width: 40%;
+    }
+    
 
 
 
