@@ -16,10 +16,6 @@
     }
 
     /* main body */
-
-    #main-content-container {
-        display: flex;
-    }
     
     #container-left {
         width: 60%;
